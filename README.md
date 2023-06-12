@@ -23,6 +23,9 @@ If no cow matching the string is available, Xcode will produce an error:
 
 ### Related
 
+- Apps:
+  - [CodeCows](https://zeezide.de/en/products/codecows/) for macOS, includes a cows service and Xcode editor extension
+  - [ASCII Cows](https://zeezide.de/en/products/asciicows/) for iOS, includes a cows message app extension
 - Swift [cows](https://github.com/AlwaysRightInstitute/cows) package
 - Swift Macros:
   - [Intro to Swift macros](https://developer.apple.com/documentation/swift/applying-macros)
