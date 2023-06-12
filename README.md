@@ -7,12 +7,25 @@
 
 ![](https://cloud.githubusercontent.com/assets/170270/13090998/a9cdd6b0-d52b-11e5-83ec-614143c9a3bb.png)
 
+What is it? A Swift 5.9 compiler plugin that provides the `#cow` macro.
+It replaces the cow mentioned in the macro w/ one of the ASCII cows
+provided by the Swift [cows](https://github.com/AlwaysRightInstitute/cows) package.
+
+### Usage:
+```swift
+let compilerCow = #cow("compiler")
+print(compilerCow)
+```
+If no cow matching the string is available, Xcode will produce an error:
 ![Xcode using MacroCows](images/MacroCows.png)
 
+*Requires*: Xcode 15beta+.
 
 ### Related
 
 - Swift [cows](https://github.com/AlwaysRightInstitute/cows) package
+- Swift Macros:
+  - WWDC 2023: [Expand on Swift macros](https://developer.apple.com/videos/play/wwdc2023/10167)
 - Original:
   - [cows](https://github.com/sindresorhus/cows) - Node.js cows, the original
   - [vaca](https://github.com/sindresorhus/vaca) - Get a random ASCII cow 🐮
