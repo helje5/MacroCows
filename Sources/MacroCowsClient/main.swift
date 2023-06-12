@@ -1,6 +1,6 @@
 import MacroCows
 
-let cow1989 = #🐮("1989")
+let cow1989     = #🐮("1989")
 let compilerCow = #🐮("compiler")
 
 #if false // will produce a static error, because no tasty cow exists
