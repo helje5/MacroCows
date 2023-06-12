@@ -7,7 +7,7 @@
 
 ![](https://cloud.githubusercontent.com/assets/170270/13090998/a9cdd6b0-d52b-11e5-83ec-614143c9a3bb.png)
 
-What is it? A Swift 5.9 compiler plugin that provides the `#cow` [Swift macro](https://developer.apple.com/documentation/swift/applying-macros).
+What is it? A Swift 5.9 compiler plugin that provides the `#🐮` [Swift macro](https://developer.apple.com/documentation/swift/applying-macros).
 It replaces the cow mentioned in the macro w/ one of the ASCII cows
 provided by the Swift [cows](https://github.com/AlwaysRightInstitute/cows) package.
 
