@@ -7,7 +7,7 @@
 
 ![](https://cloud.githubusercontent.com/assets/170270/13090998/a9cdd6b0-d52b-11e5-83ec-614143c9a3bb.png)
 
-What is it? A Swift 5.9 compiler plugin that provides the `#cow` macro.
+What is it? A Swift 5.9 compiler plugin that provides the `#cow` [Swift macro](https://developer.apple.com/documentation/swift/applying-macros).
 It replaces the cow mentioned in the macro w/ one of the ASCII cows
 provided by the Swift [cows](https://github.com/AlwaysRightInstitute/cows) package.
 
@@ -25,6 +25,7 @@ If no cow matching the string is available, Xcode will produce an error:
 
 - Swift [cows](https://github.com/AlwaysRightInstitute/cows) package
 - Swift Macros:
+  - [Intro to Swift macros](https://developer.apple.com/documentation/swift/applying-macros)
   - WWDC 2023: [Expand on Swift macros](https://developer.apple.com/videos/play/wwdc2023/10167)
 - Original:
   - [cows](https://github.com/sindresorhus/cows) - Node.js cows, the original
