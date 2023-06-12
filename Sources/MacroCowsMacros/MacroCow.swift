@@ -10,7 +10,7 @@ import Foundation
 /// and produces a String containing an ASCII matching the query
 /// and the source code that produced the value. For example
 ///
-///     #cow("1989")
+///     #🐮("1989")
 ///
 ///  will expand to
 ///  ```
