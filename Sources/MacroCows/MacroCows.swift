@@ -1,6 +1,6 @@
 /// A Macro which takes a String expression
-/// and produces a String containing an ASCII matching the query
-/// and the source code that produced the value. For example
+/// and produces a String containing an ASCII cow matching 
+/// the query. For example
 ///
 ///     #🐮("1989")
 ///
