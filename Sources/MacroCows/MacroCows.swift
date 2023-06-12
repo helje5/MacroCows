@@ -16,5 +16,5 @@
 ///  Cow in the GDR before...   ...and after 9-Nov-1989
 ///  ```
 @freestanding(expression)
-public macro cow(_ value: String) -> String =
+public macro 🐮(_ value: String) -> String =
   #externalMacro(module: "MacroCowsMacros", type: "MacroCow")

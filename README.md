@@ -13,7 +13,7 @@ provided by the Swift [cows](https://github.com/AlwaysRightInstitute/cows) packa
 
 ### Usage:
 ```swift
-let compilerCow = #cow("compiler")
+let compilerCow = #🐮("compiler")
 print(compilerCow)
 ```
 If no cow matching the string is available, Xcode will produce an error:

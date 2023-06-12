@@ -14,7 +14,7 @@ final class MacroCowsTests: XCTestCase {
   func testStringLiteral() {
     assertMacroExpansion(
       """
-      #cow("1989")
+      #🐮("1989")
       """,
       expandedSource:
         "#\"               (__)                         (__)\\#n               (oo)                         (oo)\\#n  ______________\\/______     ____    /-------\\/  __\\#n /___/___/___/___/___/_/|   /___/|  / |     || _/_/|\\#n |___|___|___|___|___|_||   |__||/|* //-----|||_|_||\\#n |_|___|___|___|___|___||   |_|__|/|^^      ^/|___||\\#n |___|___|___|___|___|_|/   |___|_|/        |___|_|/\\#n Cow in the GDR before...   ...and after 9-Nov-1989\"#",
@@ -25,7 +25,7 @@ final class MacroCowsTests: XCTestCase {
   func testIntegerArgument() {
     assertMacroExpansion(
       """
-      #cow(1989)
+      #🐮(1989)
       """,
       expandedSource:
         "#\"               (__)                         (__)\\#n               (oo)                         (oo)\\#n  ______________\\/______     ____    /-------\\/  __\\#n /___/___/___/___/___/_/|   /___/|  / |     || _/_/|\\#n |___|___|___|___|___|_||   |__||/|* //-----|||_|_||\\#n |_|___|___|___|___|___||   |_|__|/|^^      ^/|___||\\#n |___|___|___|___|___|_|/   |___|_|/        |___|_|/\\#n Cow in the GDR before...   ...and after 9-Nov-1989\"#",
@@ -36,7 +36,7 @@ final class MacroCowsTests: XCTestCase {
   func testBoolArgument() {
     assertMacroExpansion(
       """
-      #cow(false)
+      #🐮(false)
       """,
       expandedSource: "\"\"",
       diagnostics: [
@@ -51,7 +51,7 @@ final class MacroCowsTests: XCTestCase {
   func testStaticStringAddition() {
     assertMacroExpansion(
       """
-      #cow(("19" + ("89")))
+      #🐮(("19" + ("89")))
       """,
       expandedSource:
         "#\"               (__)                         (__)\\#n               (oo)                         (oo)\\#n  ______________\\/______     ____    /-------\\/  __\\#n /___/___/___/___/___/_/|   /___/|  / |     || _/_/|\\#n |___|___|___|___|___|_||   |__||/|* //-----|||_|_||\\#n |_|___|___|___|___|___||   |_|__|/|^^      ^/|___||\\#n |___|___|___|___|___|_|/   |___|_|/        |___|_|/\\#n Cow in the GDR before...   ...and after 9-Nov-1989\"#",
