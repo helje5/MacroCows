@@ -6,7 +6,7 @@ import cows
 import Foundation
 
 let testMacros: [String: Macro.Type] = [
-    "cow": MacroCow.self
+    "🐮": MacroCow.self
 ]
 
 final class MacroCowsTests: XCTestCase {
