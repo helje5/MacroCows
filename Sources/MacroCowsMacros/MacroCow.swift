@@ -28,7 +28,8 @@ public struct MacroCow: ExpressionMacro {
   public static func expansion(
     of node: some FreestandingMacroExpansionSyntax,
     in context: some MacroExpansionContext
-  ) -> ExprSyntax {
+  ) -> ExprSyntax 
+  {
     guard let argument = node.argumentList.first?.expression else {
       let message = MacroDiagnostic.missingArgument
       context.diagnose(Diagnostic(node: Syntax(node), message: message))
