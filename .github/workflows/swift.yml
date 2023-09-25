@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         image:
-          - swift/swift:5.9-focal
+          - swift:5.9-focal
     container: ${{ matrix.image }}
     steps:
       - name: Checkout Repository
